@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Validation</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Email Validator</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Validate Your Email Address</h2>
+            <div class="mail">
+                <form name="form1" action="#" onsubmit="return ValidateEmail(document.form1.text1)">
+                    <div class="input-group">
+                        <input type='text' name='text1' required placeholder="Enter your email" />
+                    </div>
+                    <div class="submit">
+                        <input type="submit" name="submit" value="Submit" />
+                    </div>
+                    <div id="message"></div> <!-- Message display area -->
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024  UD-Tech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
